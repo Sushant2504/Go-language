@@ -1,4 +1,5 @@
 package main
+
 import "fmt"
 
 // golang variables 
@@ -8,6 +9,8 @@ func main() {
 	     
 	     age = 20;
          score = 96.5;
+
+	 var flag bool = true	 
 
 		 fmt.println("Name:", name);
 		 fmt.println("Age:", age);
