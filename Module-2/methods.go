@@ -3,6 +3,7 @@ package main
 import (
     "fmt"
 )
+
 // intro to methods
 // declaring methods
 // methods demonstration
@@ -11,6 +12,12 @@ import (
 
 // in go, a method is defined using the func keyword followed by the receiver type (the type on which the method operates) and a method name. The receiver tpe is specified within parenthesis before the method name. The syntax is demonstrated below.
 
+type author struct{
+	name string
+    branch string
+	particles int
+	salary int
+}
 
 func main() {
 	 
